@@ -1,0 +1,48 @@
+.dashboard-root {
+  font-family: "Jost", sans-serif;
+}
+
+.dashboard-root .lgbtn {
+  background-color: #2583bd;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
+.dashboard-root .lgbtn:hover {
+  background-color: #14415c;
+}
+
+.dashboard-root .aboutus1 {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #000d1f;
+  top: 0;
+  position: fixed;
+}
+
+.dashboard-root .content {
+  background-color: #000d20;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
+}
+
+.dashboard-root .input1 {
+  margin: 5px 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid #000d20;
+}

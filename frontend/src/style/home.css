@@ -1,0 +1,101 @@
+.home-root {
+  font-family: "Jost", sans-serif;
+}
+
+/* -----------slider------------------ */
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* ----------------welcome to Manam--------------- */
+.title-container {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  line-height: 35px;
+}
+
+.line {
+  display: inline-block;
+  height: 2px;
+  background-color: gray;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.title {
+  padding: 0 20px;
+  font-size: 20px;
+  color: #10699f;
+  font-weight: 900;
+  display: inline-block;
+  max-width: 50%;
+}
+
+.why-abi-bridal-content {
+  text-align: center;
+  color: #10699f;
+}
+
+.why-abi-bridal-content img {
+  height: 195px;
+  width: 200px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+/* --------------how Manam works-------------- */
+.icon-image {
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  background-color: #cd2e56;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  line-height: 60px;
+  margin-bottom: 25px;
+  transition: all 0.5s;
+}
+.icon-image:hover {
+  border-radius: 50%;
+}
+
+/* --------best pakages------------- */
+.bstpackages {
+  padding: 2px;
+  border: 1px solid rgb(223, 217, 217);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 800;
+  color: #0d0d49;
+  font-size: 16px;
+}
+.bstpackages img {
+  width: 100%;
+  object-fit: cover;
+  transition: filter 2s;
+}
+
+.bstpackages:hover .bpih {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bpbtn {
+  background-color: #2583bd;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: auto;
+  display: inline-block;
+  transition: all 1s;
+  margin: 5px 0;
+}
+
+.bpbtn:hover {
+  background-color: #14415c;
+}

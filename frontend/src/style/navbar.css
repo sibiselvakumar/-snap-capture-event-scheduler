@@ -1,0 +1,66 @@
+.navbar-root {
+  font-family: "Jost", sans-serif;
+  margin-bottom: 85px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+/* ------link, hover and active color */
+.navbar-nav .nav-item .nav-link {
+  color: #102e40;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.5s;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #10699f;
+}
+
+.navbar-nav .nav-link.active {
+  color: #10699f;
+}
+
+/* ----dropdown item font--- */
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+  color: #102e40;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dropdown-item:active {
+  background-color: unset;
+  color: #10699f;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #10699f;
+  background-color: unset;
+}
+
+/* -------------------event's booking-------------- */
+.ebbtn {
+  background-color: #153b52;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: auto;
+  display: inline-block;
+  transition: all 1s;
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.ebbtn:hover {
+  background-color: #2079b1;
+}
+/* ------------------------------------------------ */

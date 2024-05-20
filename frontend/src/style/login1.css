@@ -1,0 +1,30 @@
+.login1-root {
+  font-family: "Jost", sans-serif;
+}
+
+.login1-root .lgbtn {
+  background-color: #2583bd;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
+.login1-root .lgbtn:hover {
+  background-color: #14415c;
+}
+
+.login1-root .aboutus1 {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #000d1f;
+  top: 0;
+  position: fixed;
+  margin-bottom: 70px;
+}

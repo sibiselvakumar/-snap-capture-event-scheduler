@@ -1,0 +1,115 @@
+.login-root {
+  font-family: "Jost", sans-serif;
+}
+
+.lgbtn {
+  background-color: #2583bd;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.lgbtn:hover {
+  background-color: #14415c;
+}
+
+/* 
+.account-login {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.account-login .span1 {
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(0deg, rgba(34,195,82,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    font-weight: bold;
+}
+
+.account-login .span2 {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.account-login .span2:hover{
+    color:blue;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.account-login .span3btn {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+
+
+
+.account-login .login-form {
+    padding: 25px;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 0 0 10px 10px;
+}
+
+.account-login label {
+    width: 100%;
+    margin: 15px 0 5px 0;
+}
+
+.account-login i {
+    width: 5%;
+    display: inline-block;
+    color:blue;
+    font-weight: 900;
+}
+.account-login .input {
+    width: 95%;
+}
+
+.account-login .password {
+    width: 95%;
+}
+
+.account-login .shpwd {
+    right: 10px;
+    position: absolute;
+    display: inline-block;
+    line-height: 30px;
+    font-weight: 900;
+    color: black;
+    font-size: larger;
+}
+
+.account-login .button {
+    outline: none;
+    border: none;
+    width: auto;
+    text-align: center;
+    padding: 5px 10px;
+    background-image: none;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    transition:all 0.5s;
+}
+.account-login .button:hover{
+    background-image: linear-gradient(to right top, #41e372, #97d144, #c5bb31, #e4a43c, #f48e57);
+    color:black;
+} */

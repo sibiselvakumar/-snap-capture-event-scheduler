@@ -1,0 +1,43 @@
+.root-footer {
+  font-family: "Jost", sans-serif;
+  background-color: #091c26;
+}
+
+.root-footer .heading {
+  color: #8acaf1;
+  font-weight: bold;
+}
+
+.root-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.root-footer ul li {
+  margin: 5px 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.root-footer ul li:hover {
+  color: #36aaf1;
+}
+
+.root-footer ul li .rmnavlnk {
+  text-decoration: none;
+  color: white;
+}
+
+.root-footer ul li :hover {
+  color: #34abf5;
+}
+
+.footer-line {
+  background-color: #8acaf1;
+  height: 2px;
+  width: 100px;
+  display: inline-block;
+}
