@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const mysql = require("mysql");
@@ -12,23 +13,21 @@ app.use(express.json());
 app.use(express.static("./images1"));
 
 const db = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "",
-  database: "manam",
+  user: process.env.DB_USER || "root",
+  host: process.env.DB_HOST || "localhost",
+  password: process.env.DB_PASSWORD || "",
+  database: process.env.DB_NAME || "manam",
 });
 
-const stripe = require("stripe")(
-  "sk_test_51PBvuKSJXmEF31NGlEKe7FTegkxIAO6S2iOsG37zH5qGNHkWQW23p69vpAqSNKbZexgURPx114jUkQnDYGYboolV00mC9qNo5i"
-);
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "manamphotography01@gmail.com",
-    pass: "oyvs xhwu vmas qdir",
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
   },
 });
 
