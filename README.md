@@ -1,6 +1,6 @@
 # Snap Capture — Event Scheduler 📸
 
-A full-stack **event booking and scheduling platform** for a photography business, built with React, Node.js/Express, and MySQL. Customers can browse wedding/event packages, check date availability, book events, and pay online; admins can manage packages, bookings, billing, and a photo gallery from a dedicated dashboard..
+A full-stack **event booking and scheduling platform** for a photography business, built with React, Node.js/Express, and MySQL. Customers can browse wedding/event packages, check date availability, book events, and pay online; admins can manage packages, bookings, billing, and a photo gallery from a dedicated dashboard.
 
 ## Features
 
